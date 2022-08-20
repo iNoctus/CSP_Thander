@@ -1266,7 +1266,7 @@ void ProcessCommonDialogEvent(ref NPChar, aref Link, aref NextDiag)
             DeleteAttribute(pchar, "questTemp.Waiting_time");
 			pchar.questTemp.State = "QuestLineBreake";
 			bWorldAlivePause   = false; // Конец линейки
-			DeleteAttribute(pchar, "TempPerks.QuestTroopers"); //снятия пёрка квестового десанта
+			DeleteAttribute(pchar, "TempPerks.QuestTroopers"); //снятия перка квестового десанта
 			AddCharacterExpToSkill(pchar, "Repair", -550);
 			AddCharacterExpToSkill(pchar, "Pistol", -530);
 			AddCharacterExpToSkill(pchar, "Fortune", -560);
@@ -1300,7 +1300,7 @@ void ProcessCommonDialogEvent(ref NPChar, aref Link, aref NextDiag)
 			pchar.questTemp.Waiting_time = "10";
             SaveCurrentQuestDateParam("questTemp");
             pchar.questTemp.CurQuestNumber = "12";
-			DeleteAttribute(pchar, "TempPerks.QuestTroopers"); //снятия пёрка квестового десанта
+			DeleteAttribute(pchar, "TempPerks.QuestTroopers"); //снятия перка квестового десанта
 			CloseQuestHeader("Fra_Line_11_OccupySantaCatalina");
 			AddTitleNextRate(sti(NPChar.nation), 2);
 			ChangeCharacterReputation(pchar, 6);

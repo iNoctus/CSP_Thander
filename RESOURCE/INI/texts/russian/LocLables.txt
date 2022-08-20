@@ -45,7 +45,7 @@ Cumana_town			{Кумана}
 Caracas_town		{Каракас}
 Villemstad_town		{Виллемстад}
 Cartahena_town		{Картахена}
-BasTer_town			{Бас Тер}
+BasTer_town			{Бас Тёр}
 SantoDomingo_town	{Санто-Доминго}
 LaVega_town			{Ла Вега}
 PortPax_town		{Порт-о-Принс}
@@ -186,10 +186,10 @@ Villemstad			{Виллемстад}
 Villemstad Town		{Виллемстад}
 Villemstad Fort		{форт Виллемстада}
 Villemstad Port		{порт Виллемстада}
-BasTer				{Бас-Тер}
-BasTer Town			{Бас-Тер}
-BasTer Fort			{форт Бас-Тер}
-BasTer Port			{порт Бас-Тер}
+BasTer				{Бас-Тёр}
+BasTer Town			{Бас-Тёр}
+BasTer Fort			{форт Бас-Тёр}
+BasTer Port			{порт Бас-Тёр}
 LaVega				{Ла Вега}
 LaVega Town			{Ла Вега}
 LaVega Fort			{форт Ла Веги}

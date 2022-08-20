@@ -329,7 +329,7 @@ void ProcessDialogEvent()
             pchar.questTemp.Waiting_time = "2";
             pchar.questTemp.CurQuestNumber = "4";     // идём на четвёртый квест
             DeleteAttribute(pchar, "questTemp.CompanionQuantity");
-            DeleteAttribute(pchar, "TempPerks.QuestTroopers");  //снятие пёрка квестового десанта
+            DeleteAttribute(pchar, "TempPerks.QuestTroopers");  //снятие перка квестового десанта
 			// потом подумаем как дать солдат в помошь...
             NextDiag.TempNode = "First time";
             NextDiag.CurrentNode = NextDiag.TempNode;
@@ -481,7 +481,7 @@ void ProcessDialogEvent()
             pchar.questTemp.State = "empty";
             DeleteAttribute(pchar, "questTemp.CompanionQuantity");
             DeleteAttribute(pchar, "questTemp.BelizGoldQty");
-            DeleteAttribute(pchar, "TempPerks.QuestTroopers"); //дублирование снятия пёрка квестового десанта
+            DeleteAttribute(pchar, "TempPerks.QuestTroopers"); //дублирование снятия перка квестового десанта
             LAi_LocationFightDisable(&Locations[FindLocation("Beliz_fort")], false); //вернём боевки
             chrDisableReloadToLocation = false;
             pchar.nation = ENGLAND; // вернём нацию
