@@ -82,7 +82,7 @@ void ProcessDialogEvent()
 			{
 				dialog.text = LinkRandPhrase("Имею честь представиться! Я начальник патруля из " + XI_ConvertString("Colony" + npchar.city + "Gen") + ", мы разыскиваем беглого каторжника.",
 					"Здравствуйте, я начальник этого патруля. Мы разыскиваем сбежавшего из " + XI_ConvertString("Colony" + npchar.city + "Gen") + " раба.",
-					"Приветствую вас, " + GetAddress_Form(NPChar) + ". Мое подразделение осуществляет патрулирование территории близ " + XI_ConvertString("Colony" + npchar.city + "Gen") + ".");
+					"Приветствую вас, " + GetAddress_Form(NPChar) + ". Моё подразделение осуществляет патрулирование территории близ " + XI_ConvertString("Colony" + npchar.city + "Gen") + ".");
 				Link.l1 = LinkRandPhrase("Прекрасно. Чем я могу вам помочь?",
 				"Очень хорошо. Могу ли я быть вам чем-нибудь полез"+ GetSexPhrase("ен","на") +", " + GetAddress_FormToNPC(NPChar) + "?",
 				"Великолепно. Что лично я могу для вас сделать?");

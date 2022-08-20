@@ -29,7 +29,7 @@ void ProcessDialogEvent()
 		case "TryNotBeCut":
 			if(pchar.SpySeeker == "Enemy" && (10 + rand(50) + rand(50)) > sti(pchar.skill.sneak))
 			{
-				dialog.text = "Сдаётся мне, что ты меня обманываешь. Но хорошо, давай пройдем к губернатору.";
+				dialog.text = "Сдаётся мне, что ты меня обманываешь. Но хорошо, давай пройдём к губернатору.";
 				link.l1 = "Никуда я с тобой не пойду! Защищайся!";
 				link.l1.go = "exit";
 				AddDialogExitQuest("SeekerFight");

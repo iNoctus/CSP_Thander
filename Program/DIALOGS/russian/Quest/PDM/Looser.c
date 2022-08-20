@@ -59,7 +59,7 @@ void ProcessDialogEvent()
 		break;
 
 		case "3":
-			dialog.text = LinkRandPhrase("А, это ты...","Я скоро ухожу, до встречи.","Может когда-нибудь еще пересечёмся...");
+			dialog.text = LinkRandPhrase("А, это ты...","Я скоро ухожу, до встречи.","Может когда-нибудь ещё пересечёмся...");
 			link.l1 = "...";
 			link.l1.go = "exit";
 

@@ -63,7 +63,7 @@ void ProcessDialogEvent()
 			link.l1.go = "exit";
 			link.l2 = "Но чем я могу тебе помочь?";
 			link.l2.go = "Davai_Pomogu_NET";
-			link.l3 = "А как насчет Братства?";
+			link.l3 = "А как насчёт Братства?";
 			link.l3.go = "Davai_Pomogu_Bratstvo";
 			NextDiag.TempNode = "Podhodim_SNOVA_Reactia";
 		break;

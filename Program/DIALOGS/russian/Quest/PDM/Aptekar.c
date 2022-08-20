@@ -237,7 +237,7 @@ void ProcessDialogEvent()
 		break;
 
 		case "Pablo_Loco_ER_2":
-			dialog.text = "Жадность делает твоё сердце тяжелым, как само золото. Ты долж"+ GetSexPhrase("ен","на") +" выбросить её в море, чтобы очиститься.";
+			dialog.text = "Жадность делает твоё сердце тяжёлым, как само золото. Ты долж"+ GetSexPhrase("ен","на") +" выбросить её в море, чтобы очиститься.";
 			link.l1 = "Расскажи мне свою историю.";
 			link.l1.go = "Pablo_Loco_2";
 		break;
@@ -264,7 +264,7 @@ void ProcessDialogEvent()
 
 		case "Pablo_Loco_4":
 			dialog.text = "";
-			link.l1 = "Расскажи мне ещё о своем народе.";
+			link.l1 = "Расскажи мне ещё о своём народе.";
 			link.l1.go = "Pablo_Loco_Plemya_Ushlo";
 			link.l2 = "Это ты Пабло, травник?";
 			link.l2.go = "Pablo_Loco_Trava";

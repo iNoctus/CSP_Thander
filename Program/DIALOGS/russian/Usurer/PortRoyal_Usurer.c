@@ -16,7 +16,7 @@ void ProcessCommonDialogEvent(ref NPChar, aref Link, aref NextDiag)
             }
 			if (pchar.questTemp.State == "MorrisWillams_AfterFightGoRedmond")
             {
-                link.l1 = "Ваших партнеров вы больше не увидите.";
+                link.l1 = "Ваших партнёров вы больше не увидите.";
                 link.l1.go = "Step_E6_5";
             }
 		break;
@@ -55,7 +55,7 @@ void ProcessCommonDialogEvent(ref NPChar, aref Link, aref NextDiag)
 		break;
 		case "Step_E6_7":
 			dialog.text = "И это говорит пират?!! Ну хорошо, Уильямс немедленно будет освобожден.";
-			link.l1 = "Это еще не все. За мое молчание о ваших делишках с контрабандой вы будете выплачивать мне... 10000 ежемесячно.";
+			link.l1 = "Это ещё не все. За моё молчание о ваших делишках с контрабандой вы будете выплачивать мне... 10000 ежемесячно.";
 			link.l1.go = "Step_E6_8";
 		break;
 		case "Step_E6_8":

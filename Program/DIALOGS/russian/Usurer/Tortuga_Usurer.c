@@ -92,7 +92,7 @@ void ProcessCommonDialogEvent(ref NPChar, aref Link, aref NextDiag)
 		break;
 
  	 	case "Step_H3_1":
-			dialog.text = NPCStringReactionRepeat("Сразу хочу сказать, что деньги в рост не беру. Занять - это пожалуйста.", "Опять та же финансовая операция?...", "Снова деньги будем предлагать?", "Давайте делом займемся, а не о делах разговоры вести.", "block", 0, npchar, Dialog.CurrentNode);
+			dialog.text = NPCStringReactionRepeat("Сразу хочу сказать, что деньги в рост не беру. Занять - это пожалуйста.", "Опять та же финансовая операция?...", "Снова деньги будем предлагать?", "Давайте делом займёмся, а не о делах разговоры вести.", "block", 0, npchar, Dialog.CurrentNode);
 			link.l1 = HeroStringReactionRepeat("Это почему?", "Да, опять та же...", "Опять...", "Давайте...", npchar, Dialog.CurrentNode);
 			link.l1.go = DialogGoNodeRepeat("Step_H3_2", "none", "none", "none", npchar, Dialog.CurrentNode);
         break;

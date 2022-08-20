@@ -33,7 +33,7 @@ void ProcessDialogEvent()
 				link.l1.go = "SMPirate1_2";
 				if (CheckAttribute(pchar, "SharleMary.LowerIsDead"))
 				{
-					dialog.text = "Смотрите парни, кто забрел на наш пляж! Море потрепало нашу лоханку и смыло за борт треть экипажа, а тут такой подарок! Нет худа без добра, как говорил наш капеллан, упокой Господь его грешную душу!";
+					dialog.text = "Смотрите парни, кто забрёл на наш пляж! Море потрепало нашу лоханку и смыло за борт треть экипажа, а тут такой подарок! Нет худа без добра, как говорил наш капеллан, упокой Господь его грешную душу!";
 					link.l1 = "Я потерпел крушение недалеко от этих берегов и прошу вас, как христиан, помочь мне добраться до любой дружественной колони, где я, клянусь честью, отблагодарю вас в полной мере.";
 					link.l1.go = "SMPirate1_3";
 				}
@@ -45,7 +45,7 @@ void ProcessDialogEvent()
 				LocatorReloadEnterDisable("Shore_ship2", "boat", false);
 				bDisableCharacterMenu = false;
 				bDisableLandEncounters = false;
-				dialog.text = "Проклятье! Знали бы мы, что все так обернется, ни за что не бежали бы с каторги\nСначала этот шторм, а теперь еще вы явились из ниоткуда и убили последнего, кто смыслил в управлении кораблем.";
+				dialog.text = "Проклятье! Знали бы мы, что все так обернётся, ни за что не бежали бы с каторги\nСначала этот шторм, а теперь ещё вы явились из ниоткуда и убили последнего, кто смыслил в управлении кораблем.";
 				link.l1 = "Я тоже разбираюсь в корабельном деле. У меня есть предложение, которое будет выгодно нам всем. Вы берете меня шкипером и мы отчаливаем отсюда.";
 				link.l1.go = "SMCrew1_2";
 			}
@@ -72,7 +72,7 @@ void ProcessDialogEvent()
 			link.l1 = "...";
 			if (CheckAttribute(pchar, "SharleMary.LowerIsDead"))
 			{
-				dialog.text = "Смотри, как поет, прям как на мессе, заслушаешься. "+GetSexPhrase("Парни, вяжи лягушатника!","Парни, вяжите девку, потом приведете ко мне в каюту.");
+				dialog.text = "Смотри, как поёт, прям как на мессе, заслушаешься. "+GetSexPhrase("Парни, вяжи лягушатника!","Парни, вяжите девку, потом приведёте ко мне в каюту.");
 				link.l1 = "...";
 				link.l1.go = "SMPirate1_3";
 			}
@@ -81,7 +81,7 @@ void ProcessDialogEvent()
 
 		case "2":
 			dialog.text = "Нет, я в порядке.";
-			link.l1 = "Почему ты "+GetSexPhrase("пошла одна?","пошел один?");
+			link.l1 = "Почему ты "+GetSexPhrase("пошла одна?","пошёл один?");
 			link.l1.go = "3";
 		break;
 
@@ -117,7 +117,7 @@ void ProcessDialogEvent()
 			Pchar.questTemp.HiringOfficerIDX = GetCharacterIndex(sld.id);
 			sld.rank = 3;
 			SetSPECIAL(sld, 6, 6, 8, 5, 8, 8, 8);
-			SetCharacterPerk(sld, "Energaiser"); // скрытый перк дает 1.5 к приросту энергии, дается ГГ и боссам уровней
+			SetCharacterPerk(sld, "Energaiser"); // скрытый перк даёт 1.5 к приросту энергии, даётся ГГ и боссам уровней
 			sld.quest.OfficerPrice = sti(pchar.rank)*500;
 			sld.OfficerWantToGo.DontGo = true; //не пытаться уйти
 			sld.loyality = MAX_LOYALITY;

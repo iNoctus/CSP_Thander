@@ -23,7 +23,7 @@ void ProcessDialogEvent()
 			if (isBadReputation(pchar, 40))
 			{
 				dialog.text = RandPhraseSimple("О-о-о, черт!! Я знаю, кто ты "+ GetSexPhrase("такой","такая") +"! Только законченный кретин может нанять тебя в сопровождение своего корабля. Прощай!", "А-а, я знаю, кто ты есть! Тебя нанять в качестве сопровождающего?! Ищи дурака...");
-				link.l1 = RandPhraseSimple("Хех, боязливый какой...", "Пугливый какой народ пошел!");
+				link.l1 = RandPhraseSimple("Хех, боязливый какой...", "Пугливый какой народ пошёл!");
 				link.l1.go = "convoy_refused";
 			}
 			else

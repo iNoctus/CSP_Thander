@@ -920,7 +920,7 @@ void ProcessDialogEvent()
 
 			dialog.text = "Не могу поверить, у нас получилось! Вы можете возвращаться в город, а мои люди разберутся с этим беспорядком. " + OctavioDead;
 
-			OctavioDead = "Октавио Ламбрини мертв, ";
+			OctavioDead = "Октавио Ламбрини мёртв, ";
 			if(!LAi_IsDead(CharacterFromID("PDM_Octavio_Lambrini")))	OctavioDead = "Октавио Ламбрини арестован, ";
 			link.l1 = OctavioDead + "что насчёт награды?";
 			link.l1.go = "Antonio_8_2";
@@ -1160,7 +1160,7 @@ void ProcessDialogEvent()
 			AddQuestUserData("PDM_Clan_Lambrini", "sContinue", finalWords);
 
 			DeleteAttribute(pchar,"LambriniPGGInPrison");
-			SetTimerCondition("LambriniPGG_Freedom", 0, 0, 7, false);//Через неделю вернется в строй
+			SetTimerCondition("LambriniPGG_Freedom", 0, 0, 7, false);//Через неделю вернётся в строй
 			//DeleteAttribute(npchar, "PGGAi.DontUpdate");
 			//DeleteAttribute(npchar, "PGGAi.Task.SetSail");
 			//DeleteAttribute(pchar, "LambriniPGG");
